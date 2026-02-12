@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Property affordability calculators.">
+<title>Property Calculators</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar">
+<div class="logo">Ben Nleya</div>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="myproperties.html">Properties</a></li>
+<li><a href="calculators.html">Calculators</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+
+
+<section class="calculator">
+<img src="calculator.jpg" alt="Calculator">
+<input type="number" id="price" placeholder="Property Price (R)">
+<button onclick="repay()">Monthly Repayment</button>
+<p id="rep"></p>
+<button onclick="income()">Required Income</button>
+<p id="inc"></p>
+
+
+<div class="links">
+<a target="_blank" href="https://property-affordability-credit-check-uwtvl4f7dmlpgshjjsw6bt.streamlit.app/">Pre‑Qualification App</a>
+<a target="_blank" href="https://gis.ekurhuleni.gov.za/mapviewer/">Ekurhuleni GIS</a>
+</div>
+</section>
+
+
+<script>
+function formatRand(value) {
+  return 'R' + Math.round(value).toLocaleString('en-ZA');
+}
+
+function repay() {
+  let p = Number(price.value);
+  rep.innerText = formatRand(p * 0.01125);
+}
+
+function income() {
+  let p = Number(price.value);
+  inc.innerText = formatRand((p * 0.01125) / 0.3);
+}
+</script>
+
+
+<a href="https://wa.me/27696466635" class="whatsapp" target="_blank">WhatsApp</a>
+<footer><p>&copy; 2026 Ben Nleya</p></footer>
+</body>
+</html>

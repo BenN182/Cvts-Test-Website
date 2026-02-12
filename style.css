@@ -1,0 +1,61 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:'Segoe UI',sans-serif;color:#222}
+.navbar{display:flex;justify-content:space-between;align-items:center;padding:15px 25px;background:#111;color:#fff;position:sticky;top:0}
+.navbar ul{display:flex;gap:20px;list-style:none;padding:0;margin:0}
+.navbar a{color:white;text-decoration:none;font-weight:500}
+.hero{position:relative}
+.hero img{width:100%;height:60vh;object-fit:cover}
+.hero-text{position:absolute;bottom:30px;left:30px;color:white}
+.content,.calculator{padding:40px;max-width:1000px;margin:auto}
+.image-grid,.properties{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.property-card{background:#f4f4f4;border-radius:10px;overflow:hidden}
+.property-card p{padding:15px}
+.page-header{background:#333;color:white;padding:40px;text-align:center}
+.button{background:#c59d5f;color:white;padding:12px 25px;border-radius:5px;text-decoration:none}
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:white;padding:15px 20px;border-radius:50px;text-decoration:none;font-weight:bold}
+footer{background:#111;color:white;text-align:center;padding:15px;margin-top:40px}
+iframe{width:100%;height:300px;border:0}
+@media(max-width:768px){.hero-text{font-size:14px}}
+.image-grid img {
+  width: 100%;
+  height: 220px;          /* controls image height */
+  object-fit: cover;     /* crops without distortion */
+  border-radius: 10px;
+}
+.property-card img {
+  width: 100%;
+  height: 300px;        /* controls image size */
+  object-fit: cover;   /* crops nicely */
+  border-radius: 8px 8px 0 0;
+}
+.page-header h1 {
+  font-size: 2rem;     /* default is usually ~3rem */
+  margin: 0;
+}
+.calculator img {
+  width: 100%;
+  height: 200px;        /* controls image size */
+  object-fit: cover;   /* crops nicely */
+  border-radius: 8px 8px 0 0;
+}
+.calculator {
+  padding: 40px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.calculator input {
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.calculator button {
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+.links a {
+  display: block;
+  margin: 10px 0;
+}
