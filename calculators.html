@@ -9,53 +9,84 @@
 </head>
 <body>
 
-
 <nav class="navbar">
-<div class="logo">Ben Nleya</div>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="myproperties.html">Properties</a></li>
-<li><a href="calculators.html">Calculators</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
+  <div class="logo">Ben Nleya</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="myproperties.html">Properties</a></li>
+    <li><a href="calculators.html">Calculators</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
 </nav>
 
-
-
 <section class="calculator">
-<img src="calculator.jpg" alt="Calculator">
-<input type="number" id="price" placeholder="Property Price (R)">
-<button onclick="repay()">Monthly Repayment</button>
-<p id="rep"></p>
-<button onclick="income()">Required Income</button>
-<p id="inc"></p>
+  <img src="calculator.jpg" alt="Calculator">
 
+  <!-- TEXT input to allow formatted numbers -->
+  <input
+    type="text"
+    id="price"
+    placeholder="Property Price (R)"
+    oninput="formatInput(this)"
+  >
 
-<div class="links">
-<a target="_blank" href="https://property-affordability-credit-check-uwtvl4f7dmlpgshjjsw6bt.streamlit.app/">Pre‑Qualification App</a>
-<a target="_blank" href="https://gis.ekurhuleni.gov.za/mapviewer/">Ekurhuleni GIS</a>
-</div>
+  <button onclick="repay()">Monthly Repayment</button>
+  <p id="rep"></p>
+
+  <button onclick="income()">Required Income</button>
+  <p id="inc"></p>
+
+  <div class="links">
+    <a target="_blank" href="https://property-affordability-credit-check-uwtvl4f7dmlpgshjjsw6bt.streamlit.app/">Pre-Qualification App</a>
+    <a target="_blank" href="https://gis.ekurhuleni.gov.za/mapviewer/">Ekurhuleni GIS</a>
+  </div>
 </section>
 
-
 <script>
+/* Format number as South African Rand */
 function formatRand(value) {
-  return 'R' + Math.round(value).toLocaleString('en-ZA');
+  return 'R ' + Math.round(value).toLocaleString('en-ZA');
+}
+
+/* Format input while typing */
+function formatInput(input) {
+  let value = input.value.replace(/\s/g, '').replace(/\D/g, '');
+  if (value === '') {
+    input.value = '';
+    return;
+  }
+  input.value = Number(value).toLocaleString('en-ZA');
+}
+
+/* Get numeric value from formatted input */
+function getPrice() {
+  return Number(document.getElementById("price").value.replace(/\s/g, ''));
 }
 
 function repay() {
-  let p = Number(price.value);
-  rep.innerText = formatRand(p * 0.01125);
+  const p = getPrice();
+  if (!p) {
+    rep.innerText = '';
+    return;
+  }
+  rep.innerText = "Estimated Monthly Repayment: " + formatRand(p * 0.01125);
 }
 
 function income() {
-  let p = Number(price.value);
-  inc.innerText = formatRand((p * 0.01125) / 0.3);
+  const p = getPrice();
+  if (!p) {
+    inc.innerText = '';
+    return;
+  }
+  inc.innerText = "Required Monthly Income: " + formatRand((p * 0.01125) / 0.3);
 }
 </script>
 
-
 <a href="https://wa.me/27696466635" class="whatsapp" target="_blank">WhatsApp</a>
-<footer><p>&copy; 2026 Ben Nleya</p></footer>
+
+<footer>
+  <p>&copy; 2026 Ben Nleya</p>
+</footer>
+
 </body>
 </html>
