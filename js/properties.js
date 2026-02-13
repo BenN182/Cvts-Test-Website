@@ -1,6 +1,6 @@
 // Load and display properties on the main page
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('myProperties.json')
+    fetch(`myProperties.json?v=${Date.now()}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
