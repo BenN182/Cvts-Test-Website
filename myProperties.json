@@ -102,6 +102,23 @@
         "RNO": null
     },
     {
+        "ID": 1774526266,
+        "Property Type": "House",
+        "Price": 950000,
+        "Town": "Kempton Park",
+        "Suburb": "Birch Acres",
+        "Bedrooms": 3,
+        "Bathrooms": 2,
+        "Garages": 2,
+        "Carports": 0,
+        "Pool": false,
+        "Description": "Affordable 3 Bedroom House in Birch Acres. The property is inside an enclosed area.",
+        "Pictures": "https://res.cloudinary.com/dag0mcbzj/image/upload/v1774526241/21%20Doublom/ity85ayvcalppkpv6jzs.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1774526246/21%20Doublom/pb3kpteb2dctybtlxenq.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1774526250/21%20Doublom/jqdt8vcdw1o5fhtgvnrc.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1774526253/21%20Doublom/fwm6gfwo6l2dlfkzhirt.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1774526259/21%20Doublom/rup6cqgne6oh5dufll37.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1774526264/21%20Doublom/hi9hmwep7itywfezlokw.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1774526271/21%20Doublom/lpp56psgzyepof3aiecj.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1774526280/21%20Doublom/xfhcrfobdmkftljy0lwi.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1774526293/21%20Doublom/hqlvlrfi0emrkgegzqi1.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1774526304/21%20Doublom/k4og5zds1idus7qqqxeg.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1774526311/21%20Doublom/aejeldoge7pjwiwfvapk.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1774526320/21%20Doublom/w1rtayas1gjqf5qpnwxh.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1774526332/21%20Doublom/dhrxawhqhx3zhrbscgzl.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1774526336/21%20Doublom/yzr9obys939rvzgr1tzm.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1774526343/21%20Doublom/psyjg6jaro8ifuxrumda.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1774526349/21%20Doublom/apqmenqw04zg53qd9w2c.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1774526355/21%20Doublom/oj5tdazwpuwcikf5ch8c.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1774526361/21%20Doublom/aofpszkvz09i7lmia2wv.jpg",
+        "Floor size": 0,
+        "Stand size": 1000,
+        "RNO": "21 Doublom: 1004275"
+    },
+    {
         "ID": 1770985107,
         "Property Type": "House",
         "Price": 1350000,
