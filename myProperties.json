@@ -253,5 +253,22 @@
         "Floor size": 70,
         "Stand size": 0,
         "RNO": null
+    },
+    {
+        "ID": 11296693196009983873,
+        "Property Type": "Flat",
+        "Price": 390000,
+        "Town": "Kempton Park",
+        "Suburb": "Kempton Park CBD",
+        "Bedrooms": 2,
+        "Bathrooms": 1,
+        "Garages": 0,
+        "Carports": 1,
+        "Pool": false,
+        "Description": "Affordable two bedroom flat for sale in kempton Park CBD along Kempton road. The unit is located within Angus Court. This property is ideal for a first time home buyer or investor looking to extend their portfolio. Levies: R1 600, Rates: R380",
+        "Pictures": "https://res.cloudinary.com/dag0mcbzj/image/upload/v1777384353/24%20Angus%20Court/ybfuk2gwj3vul0tjvloo.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777384355/24%20Angus%20Court/pp2r44l53n0xfxtyftzq.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777384355/24%20Angus%20Court/k6lhwcrvtjqnbe436vlx.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777384357/24%20Angus%20Court/f5nuwdbps2hriq1owuk2.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777384357/24%20Angus%20Court/ui9ymrxb3kn6ihkmmwrb.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777384358/24%20Angus%20Court/fv7yq5l08ui2mcruwlqp.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777384359/24%20Angus%20Court/rcniibx6cntztxht4kq9.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777384360/24%20Angus%20Court/zkov12rlojensqnlqak7.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777384360/24%20Angus%20Court/aitghpzpymdgepyzm4cs.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777384361/24%20Angus%20Court/qndjztxiadynjjmjlzbr.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777384362/24%20Angus%20Court/c5jtdaqnqw1ebtwkktca.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777384363/24%20Angus%20Court/scelmyh5nxtjykbfkgl6.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777384364/24%20Angus%20Court/gjlskwp7nxwxtsg0criw.jpg",
+        "Floor size": 45,
+        "Stand size": 0,
+        "RNO": "12160844"
     }
 ]
