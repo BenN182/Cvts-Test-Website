@@ -270,5 +270,22 @@
         "Floor size": 45,
         "Stand size": 0,
         "RNO": "12160844"
+    },
+    {
+        "ID": 10578597102903840113,
+        "Property Type": "Town House",
+        "Price": 490000,
+        "Town": "Kempton Park",
+        "Suburb": "Norkem Park",
+        "Bedrooms": 2,
+        "Bathrooms": 1,
+        "Garages": 0,
+        "Carports": 1,
+        "Pool": true,
+        "Description": "Affordable two bedroom town house for sale in Norkem Park. Property is located on the 1st floor in a well secure complex. ",
+        "Pictures": "https://res.cloudinary.com/dag0mcbzj/image/upload/v1777733225/13%20MELROSE%20PLACE/vjdedzwz8cugxeuwrzse.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777733226/13%20MELROSE%20PLACE/decxqepmc7bd6trmetom.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777733226/13%20MELROSE%20PLACE/wo3qhrfq5dhyywlo4d7x.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777733227/13%20MELROSE%20PLACE/ck3q9cnzjin8ptdapdjs.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777733228/13%20MELROSE%20PLACE/gz7pvjbbrnddxuhfjjq1.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777733229/13%20MELROSE%20PLACE/e8rq4npyih8gozotxjct.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777733230/13%20MELROSE%20PLACE/e01qw8zr1tyxj54zc6mh.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777733230/13%20MELROSE%20PLACE/fa6dhceufv5l1tj2xttj.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777733231/13%20MELROSE%20PLACE/twbygpje5cb2ys4brba8.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777733232/13%20MELROSE%20PLACE/mgm5cs6hbqjwhyqx7kef.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777733232/13%20MELROSE%20PLACE/pnigzdwu05dghycueda0.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777733233/13%20MELROSE%20PLACE/umele9yhmfswvqjd5f2u.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777733234/13%20MELROSE%20PLACE/v2ggunipqow6dxn4iib8.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1777733235/13%20MELROSE%20PLACE/pwuxzq8tl4bx2nhjaxmb.jpg",
+        "Floor size": 52,
+        "Stand size": 0,
+        "RNO": "1024404"
     }
 ]
