@@ -131,6 +131,7 @@ function populateFilterOptions(properties) {
 function setupFilterListeners() {
     const applyBtn = document.getElementById('apply-filters');
     const clearBtn = document.getElementById('clear-filters');
+    const townSelect = document.getElementById('filter-town');
     
     if (applyBtn) {
         applyBtn.addEventListener('click', applyFilters);
@@ -140,7 +141,45 @@ function setupFilterListeners() {
         clearBtn.addEventListener('click', clearFilters);
     }
     
+    // When town selection changes, update suburb dropdown to show only suburbs in that town
+    if (townSelect) {
+        townSelect.addEventListener('change', function() {
+            updateSuburbsForSelectedTown();
+        });
+    }
+    
     console.log('Filter listeners setup complete'); // Debug log
+}
+
+// Update the suburb dropdown to only show suburbs for the selected town
+function updateSuburbsForSelectedTown() {
+    const townSelect = document.getElementById('filter-town');
+    const suburbSelect = document.getElementById('filter-suburb');
+    
+    if (!townSelect || !suburbSelect) return;
+    
+    const selectedTown = townSelect.value;
+    
+    // Get all suburbs for the selected town, or all suburbs if "All Towns" is selected
+    let filteredProperties = allProperties;
+    if (selectedTown) {
+        filteredProperties = allProperties.filter(p => p.Town === selectedTown);
+    }
+    
+    const suburbs = [...new Set(filteredProperties.map(p => p.Suburb).filter(Boolean))].sort();
+    
+    // Clear existing suburb options except the first "All Suburbs" one
+    while (suburbSelect.options.length > 1) {
+        suburbSelect.remove(1);
+    }
+    
+    // Add the filtered suburb options
+    suburbs.forEach(suburb => {
+        const option = document.createElement('option');
+        option.value = suburb;
+        option.textContent = suburb;
+        suburbSelect.appendChild(option);
+    });
 }
 
 // Apply all active filters
@@ -210,6 +249,9 @@ function clearFilters() {
         document.getElementById('filter-suburb').value = '';
         document.getElementById('filter-bedrooms').value = '';
         document.getElementById('filter-bathrooms').value = '';
+        
+        // Reset suburb dropdown to show all suburbs
+        updateSuburbsForSelectedTown();
         
         // Display all properties
         displayProperties(allProperties);
