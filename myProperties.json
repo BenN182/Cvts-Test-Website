@@ -321,5 +321,22 @@
         "Floor size": 56,
         "Stand size": 0,
         "RNO": null
+    },
+    {
+        "ID": 5673057862772411513,
+        "Property Type": "Town House",
+        "Price": 750000,
+        "Town": "Kempton Park",
+        "Suburb": "Glen Marais",
+        "Bedrooms": 2,
+        "Bathrooms": 1,
+        "Garages": 0,
+        "Carports": 1,
+        "Pool": true,
+        "Description": "Spacious ground floor town house for sale in Glen Marais, Kempton Park. Large private garden, Communal Pool and Braai Area. ",
+        "Pictures": "https://res.cloudinary.com/dag0mcbzj/image/upload/v1782563146/53%20Avonlea/xqiqr1xsqajqwytfkggf.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1782563146/53%20Avonlea/w9e87lw1lj33xogu1n6z.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1782563147/53%20Avonlea/trzgfe1gz6dnbiji53il.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1782563148/53%20Avonlea/jlbgqxvxiokjgjxkrdre.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1782563149/53%20Avonlea/opnemr164ufqiz94r2d0.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1782563150/53%20Avonlea/gl27jytv87zef4rcwjky.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1782563151/53%20Avonlea/abvkfh2lm1rrzmzbkwys.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1782563151/53%20Avonlea/pitwannhp7rnkx26tojh.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1782563152/53%20Avonlea/tkevccmahr2bxrgt3jfg.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1782563153/53%20Avonlea/crpggpxgqsupnxwpt1t6.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1782563154/53%20Avonlea/zlvuafvu5udbmnjkktph.jpg",
+        "Floor size": 59,
+        "Stand size": 0,
+        "RNO": null
     }
 ]
