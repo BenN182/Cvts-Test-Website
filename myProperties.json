@@ -321,6 +321,22 @@
         "Floor size": 56,
         "Stand size": 0,
         "RNO": null
+    },
+    {
+        "ID": 11727825726097935208,
+        "Property Type": "Town House",
+        "Price": 1200000,
+        "Town": "Kempton Park",
+        "Suburb": "Norkem Park",
+        "Bedrooms": 3,
+        "Bathrooms": 2,
+        "Garages": 1,
+        "Carports": 1,
+        "Pool": false,
+        "Description": "Stunning 3 Bedroom Simplex town house for sale in Norkem Park in Lizurma Gardens. Property has a lounge, kitchen, 3 Bedrooms, 2 Bathrooms, 1 Garage, Carport, Private Garden.",
+        "Pictures": "https://res.cloudinary.com/dag0mcbzj/image/upload/v1784566855/LIZURMA%20GARDENS/fiweuzzvppr60p0qczly.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1784566856/LIZURMA%20GARDENS/pdetok9ayrkyaaoriqsg.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1784566858/LIZURMA%20GARDENS/bfucayu1ur3aoekkk2qb.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1784566859/LIZURMA%20GARDENS/loy1w9kullfi744audfb.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1784566861/LIZURMA%20GARDENS/zo7rcwnioonwgxpqcp0x.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1784566862/LIZURMA%20GARDENS/cfdjmbeelkilmb3lnsbt.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1784566863/LIZURMA%20GARDENS/a3jm4kptmwxd2mae6hiz.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1784566865/LIZURMA%20GARDENS/oorahjqlj5ay9aq4h28d.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1784566866/LIZURMA%20GARDENS/xvsv7mic0dufotedjns5.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1784566867/LIZURMA%20GARDENS/mdekwawxejaqqtsr8cmf.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1784566868/LIZURMA%20GARDENS/ta64ftszil6ciusesnj4.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1784566870/LIZURMA%20GARDENS/s5poc6qliapdodms6nhl.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1784566870/LIZURMA%20GARDENS/ucqbafdh9gtlgdca3wjg.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1784566872/LIZURMA%20GARDENS/s2ortq1bufjwnmv1i3xe.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1784566873/LIZURMA%20GARDENS/vvwclp36cvjahzjz65ns.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1784566874/LIZURMA%20GARDENS/xuzietqanvxqhvglaopw.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1784566875/LIZURMA%20GARDENS/cam2wyikn0gqwuztnfbn.jpg",
+        "Floor size": 100,
+        "Stand size": 0,
+        "RNO": null
     }
-    
 ]
