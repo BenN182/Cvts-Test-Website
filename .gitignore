@@ -1,0 +1,13 @@
+# Create .gitignore file
+echo "*.accdb" >> .gitignore
+echo "*.py" >> .gitignore
+echo "*.jpg" >> .gitignore
+echo "*.jpeg" >> .gitignore
+echo "*.png" >> .gitignore
+echo "js/" >> .gitignore
+echo "*.json" >> .gitignore  # Only if you want to ignore ALL json files
+
+# Then add your specific json file
+git add myProperties.json -f  # -f forces add despite .gitignore
+git commit -m "Update myProperties.json"
+git push -u origin main
