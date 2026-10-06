@@ -338,5 +338,22 @@
         "Floor size": 100,
         "Stand size": 0,
         "RNO": null
+    },
+    {
+        "ID": 17650122545543202761,
+        "Property Type": "Town House",
+        "Price": 600000,
+        "Town": "Kempton Park",
+        "Suburb": "Chloorkop",
+        "Bedrooms": 2,
+        "Bathrooms": 1,
+        "Garages": 0,
+        "Carports": 1,
+        "Pool": false,
+        "Description": "Well priced 1st floor town house for sale in Chloorkop, Kempton Park. Property is close to various amenities",
+        "Pictures": "https://res.cloudinary.com/dag0mcbzj/image/upload/v1791293452/12%20Sunderland/osudw9juwbylyjr0ukp2.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1791293453/12%20Sunderland/vgxwxawikt5atogrmky0.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1791293454/12%20Sunderland/edxiq3dsnhspqb5fhdpw.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1791293455/12%20Sunderland/dic7zvrv2ayebqwdcvip.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1791293456/12%20Sunderland/cnrazsx3gjdldtqtonju.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1791293458/12%20Sunderland/jaylibnqbrmwfdduai34.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1791293459/12%20Sunderland/wlktcxyogs9vzwvb9gj0.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1791293460/12%20Sunderland/rhyzksx8j9vx3bgwenzr.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1791293461/12%20Sunderland/bnyk1uc5rwik7jwlvuyl.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1791293462/12%20Sunderland/bxsxqlwkywuasumheifs.jpg, https://res.cloudinary.com/dag0mcbzj/image/upload/v1791293462/12%20Sunderland/hdvzcyvg7pfve3mo6wyo.jpg",
+        "Floor size": 58,
+        "Stand size": 0,
+        "RNO": null
     }
 ]
